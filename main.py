@@ -60,7 +60,7 @@ def main():
         st.warning("Top-k must be a positive integer greater than or equal to 1. Setting to default (40).")
         top_k_value = 40
 
-    st.title("Generative Chat App")
+    st.title("Generative Chat App 😎")
 
     if st.button("New Session") and st.session_state.chat_history:
         if "old_chat_history" not in st.session_state:
